@@ -54,40 +54,22 @@ const AppNavbar = () => {
               extraNav ? NavbarStyles.extraNavToggled : ""
             }`}
           >
-            <Link
-              to="/"
-              className={`${NavbarStyles.link} ${NavbarStyles.linkSub}`}
-            >
+            <Link to="/" className={`${NavbarStyles.linkSub}`}>
               About Us
             </Link>
-            <Link
-              to="/"
-              className={`${NavbarStyles.link} ${NavbarStyles.linkSub}`}
-            >
+            <Link to="/" className={`${NavbarStyles.linkSub}`}>
               Admission
             </Link>
-            <Link
-              to="/"
-              className={`${NavbarStyles.link} ${NavbarStyles.linkSub}`}
-            >
+            <Link to="/" className={`${NavbarStyles.linkSub}`}>
               Academics
             </Link>
-            <Link
-              to="/"
-              className={`${NavbarStyles.link} ${NavbarStyles.linkSub}`}
-            >
+            <Link to="/" className={`${NavbarStyles.linkSub}`}>
               Arts
             </Link>
-            <Link
-              to="/"
-              className={`${NavbarStyles.link} ${NavbarStyles.linkSub}`}
-            >
+            <Link to="/" className={`${NavbarStyles.linkSub}`}>
               Athletics
             </Link>
-            <Link
-              to="/"
-              className={`${NavbarStyles.link} ${NavbarStyles.linkSub}`}
-            >
+            <Link to="/" className={`${NavbarStyles.linkSub}`}>
               Campus Life
             </Link>
           </Nav>

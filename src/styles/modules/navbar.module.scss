@@ -47,8 +47,14 @@
 
   &Sub {
     padding: 0 0.5rem;
+    transition: all 0.2s;
+    margin: 0.5rem 0.8rem;
+    text-transform: capitalize;
     border-radius: 3px;
-    &:hover {
+    color: white;
+    &:hover,
+    &:active &:focus {
+      text-decoration: none;
       background-color: white;
       box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
     }
