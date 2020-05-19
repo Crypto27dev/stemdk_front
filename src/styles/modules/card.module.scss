@@ -1,0 +1,15 @@
+@import "../utils/mixins";
+
+.card {
+  &Title {
+    font-weight: bold;
+    border-bottom: 3px solid #fee33d;
+    padding-bottom: 0.5rem;
+  }
+
+  margin-bottom: 1.5rem;
+
+  @include md {
+    margin-bottom: 0;
+  }
+}

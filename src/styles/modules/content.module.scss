@@ -1,0 +1,9 @@
+@import "../utils/mixins";
+
+.banner {
+  &Image {
+    @include xl {
+      width: 20rem;
+    }
+  }
+}

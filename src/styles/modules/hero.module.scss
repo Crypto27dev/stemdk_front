@@ -1,0 +1,10 @@
+.hero {
+  &ImageContainer {
+    height: 90vh;
+  }
+
+  &Image {
+    object-fit: cover;
+    height: 100%;
+  }
+}

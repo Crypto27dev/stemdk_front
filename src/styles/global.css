@@ -1,0 +1,8 @@
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
